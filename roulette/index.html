@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Image Picker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Random Image Picker</h1>
+        <input type="file" id="imageInput" multiple accept="image/*">
+        <button id="pickButton">Sélectionner une Image</button>
+        <div id="imageContainer"></div>
+        <div id="selectedImageContainer">
+            <h2>Image Sélectionnée :</h2>
+            <img id="selectedImage" src="" alt="Image sélectionnée">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
